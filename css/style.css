@@ -227,7 +227,7 @@ header .navbar ul li a:hover {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
+    margin-top: 3rem;
 }
 
 .about .row .counter .box {
@@ -238,6 +238,7 @@ header .navbar ul li a:hover {
     margin: 2rem;
 
 }
+
 
 .about .row .counter .box span {
     font-size: 4rem;
@@ -250,6 +251,7 @@ header .navbar ul li a:hover {
     color: #fff;
 
 }
+
 
 .education .box-container {
     display: flex;
@@ -300,8 +302,8 @@ header .navbar ul li a:hover {
     border-radius: 50%;
     line-height: 5rem;
     text-align: center;
-    font-size: 2rem;
-    color: #fff;
+    font-size: 3rem;
+    color: #000000df;
     background: var(--yellow);
 }
 
@@ -414,9 +416,31 @@ header .navbar ul li a:hover {
     height: 6rem;
 }
 
+.box1 i {
+    margin-top: 1rem;
+    color: #eee;
+    align-items: center;
+}
 
+.about .row .counter .box1{
+    width: 8rem;
+    height: 8rem;
+    background: #373737;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 2%;
 
+}
 
+.box1 i:hover {
+    color: var(--yellow);
+
+}
+
+.bar {
+    margin-top: 2rem;
+}
 
 /* media query*/
 
