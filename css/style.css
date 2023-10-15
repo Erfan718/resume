@@ -63,7 +63,14 @@ section {
 }
 
 .heading span {
-    color: var(--yellow)
+    color: var(--yellow);
+}
+.p-color span{
+    color: var(--yellow);
+
+}
+.p-color{
+    text-align: justify;
 }
 
 header {
@@ -263,34 +270,35 @@ header .navbar ul li a:hover {
 }
 
 .education .box-container .box {
-    width: 27rem;
-    margin: 4rem 1rem;
-    padding-left: 4rem;
+    width: 30rem;
+    margin: 3rem 1rem;
+    padding:1.5rem 3rem 1.5rem 3rem ;
     border-left: .2rem solid #fff;
     position: relative;
+    border: 2px solid #f9ca24;
+    border-radius: 2rem;
 }
-
 .education .box-container .box span {
     font-size: 1.3rem;
     background: #222;
     color: #fff;
     border-radius: 5rem;
     padding: .5rem 2.5rem;
-
+    
 }
 
 .education .box-container .box h3 {
     font-size: 2rem;
     color: #fff;
     padding-top: 1.5rem;
-
+    font-weight: bolder;
 }
 
 .education .box-container .box p {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color: #eee;
     padding-top: 1rem 0;
-
+    text-align: justify;
 }
 
 .education .box-container .box i {
@@ -443,6 +451,10 @@ header .navbar ul li a:hover {
 }
 
 /* media query*/
+
+
+/* tooltip of images star */
+
 
 @media (max-width:1200px) {
     html {
