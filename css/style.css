@@ -422,10 +422,10 @@ header .navbar ul li a:hover {
     align-items: center;
 }
 
-.about .row .counter .box1{
+.about .row .counter .box1 {
     width: 8rem;
     height: 8rem;
-    background: #373737;
+    background: #373737 !important;
     text-align: center;
     padding: 0.5rem;
     margin: 1rem;
