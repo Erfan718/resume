@@ -70,11 +70,7 @@ section {
 
 }
 .p-color{
-<<<<<<< HEAD
     text-align:justify;
-=======
-    text-align: justify;
->>>>>>> d07884fd78393c36383e688cbeb12d4446698575
 }
 
 header {
@@ -293,13 +289,8 @@ header .navbar ul li a:hover {
     background: #222;
     color: #fff;
     border-radius: 5rem;
-<<<<<<< HEAD
     padding: 0.5rem 2rem;
 
-=======
-    padding: .5rem 2.5rem;
-    
->>>>>>> d07884fd78393c36383e688cbeb12d4446698575
 }
 
 .education .box-container .box h3 {
@@ -310,19 +301,12 @@ header .navbar ul li a:hover {
 }
 
 .education .box-container .box p {
-<<<<<<< HEAD
     font-size: 1.8rem;
     color: #eee;
     padding-top: 1rem 0;
     text-align: justify;
    letter-spacing: normal;
    word-spacing: 0;
-=======
-    font-size: 1.6rem;
-    color: #eee;
-    padding-top: 1rem 0;
-    text-align: justify;
->>>>>>> d07884fd78393c36383e688cbeb12d4446698575
 }
 
 .education .box-container .box i {
