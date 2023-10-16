@@ -270,15 +270,9 @@ header .navbar ul li a:hover {
 }
 
 .education .box-container .box {
-<<<<<<< HEAD
     width: 27rem;
     margin: 3rem 1rem;
     padding:1rem 3rem 1rem 3rem ;
-=======
-    width: 30rem;
-    margin: 3rem 1rem;
-    padding:1.5rem 3rem 1.5rem 3rem ;
->>>>>>> d07884fd78393c36383e688cbeb12d4446698575
     border-left: .2rem solid #fff;
     position: relative;
     border: 2px solid #f9ca24;
