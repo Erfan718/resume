@@ -213,14 +213,14 @@ header .navbar ul li a:hover {
 .about .row .info {
     flex: 1 1 48rem;
     padding: 2rem 1rem;
-    padding-left: 6rem;
-
+    padding-left: 7rem;
+    
 }
 
 .about .row .info h3 {
     font-size: 2rem;
     color: var(--yellow);
-    padding: 1rem 0;
+    padding: 0.5rem 0;
     font-weight: normal;
 }
 
@@ -245,12 +245,25 @@ header .navbar ul li a:hover {
     margin: 2rem;
 
 }
+.box1{
+    background: #222;
+    text-align: center;
+    padding: 1.5rem;
+    margin: 1.5rem;
+    border-radius: 3%;
+}
+.box1 i{
+    color: #eee;
+}
+.box1 i:hover{
+    color: var(--yellow);
+}
 
 
 .about .row .counter .box span {
     font-size: 4rem;
     color: var(--yellow);
-
+   
 }
 
 .about .row .counter .box h3 {
@@ -270,9 +283,16 @@ header .navbar ul li a:hover {
 }
 
 .education .box-container .box {
+<<<<<<< HEAD
     width: 27rem;
     margin: 3rem 1rem;
     padding:1rem 3rem 1rem 3rem ;
+=======
+    width: 30rem;
+    
+    margin: 3rem 1rem;
+    padding-left: 4rem;
+>>>>>>> main
     border-left: .2rem solid #fff;
     position: relative;
     border: 2px solid #f9ca24;
@@ -288,19 +308,37 @@ header .navbar ul li a:hover {
 }
 
 .education .box-container .box h3 {
+<<<<<<< HEAD
     font-size: 1.7rem;
+=======
+    font-size: 2.5rem;
+    font-weight: bold;
+>>>>>>> main
     color: #fff;
     padding-top: 1.5rem;
     font-weight: bolder;
 }
-
+.education .box-container .box h3:hover{
+    color: var(--yellow);
+}
 .education .box-container .box p {
+<<<<<<< HEAD
     font-size: 1.8rem;
     color: #eee;
     padding-top: 1rem 0;
     text-align: justify;
    letter-spacing: normal;
    word-spacing: 0;
+=======
+    margin-bottom: 1rem;
+    font-size: 1.7rem;
+    color: #eee;
+    padding: 1rem ;
+    hyphens: auto;
+    word-spacing: 2px;
+   
+
+>>>>>>> main
 }
 
 .education .box-container .box i {
@@ -346,8 +384,7 @@ header .navbar ul li a:hover {
 
 .contact .row {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content:center;
     flex-wrap: wrap;
 }
 
@@ -407,6 +444,7 @@ header .navbar ul li a:hover {
     padding-right: 1rem;
     color: var(--yellow);
 }
+
 
 .contact .row form .box:hover {
     background: rgb(155, 142, 2, 0.5);
