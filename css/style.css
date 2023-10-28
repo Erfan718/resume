@@ -283,16 +283,10 @@ header .navbar ul li a:hover {
 }
 
 .education .box-container .box {
-<<<<<<< HEAD
-    width: 27rem;
-    margin: 3rem 1rem;
-    padding:1rem 3rem 1rem 3rem ;
-=======
     width: 30rem;
     
     margin: 3rem 1rem;
     padding-left: 4rem;
->>>>>>> main
     border-left: .2rem solid #fff;
     position: relative;
     border: 2px solid #f9ca24;
@@ -308,12 +302,8 @@ header .navbar ul li a:hover {
 }
 
 .education .box-container .box h3 {
-<<<<<<< HEAD
-    font-size: 1.7rem;
-=======
     font-size: 2.5rem;
     font-weight: bold;
->>>>>>> main
     color: #fff;
     padding-top: 1.5rem;
     font-weight: bolder;
@@ -322,14 +312,6 @@ header .navbar ul li a:hover {
     color: var(--yellow);
 }
 .education .box-container .box p {
-<<<<<<< HEAD
-    font-size: 1.8rem;
-    color: #eee;
-    padding-top: 1rem 0;
-    text-align: justify;
-   letter-spacing: normal;
-   word-spacing: 0;
-=======
     margin-bottom: 1rem;
     font-size: 1.7rem;
     color: #eee;
@@ -338,7 +320,6 @@ header .navbar ul li a:hover {
     word-spacing: 2px;
    
 
->>>>>>> main
 }
 
 .education .box-container .box i {
