@@ -277,8 +277,8 @@ header .navbar ul li a:hover {
     width: 30rem;
     
     margin: 3rem 2rem;
-    padding-left: 4rem;
-    border-left: 2rem solid #fff;
+    padding-left: 2rem;
+    border-left: 0.2rem solid #fff;
     position: relative;
 }
 
