@@ -446,15 +446,15 @@ header .navbar ul li a:hover {
 }
 
 .box1 i {
-    margin-top: 1rem;
+    margin-top:0.2rem;
     color: #eee;
-    align-items: center;
+    align-items: center !important;
 }
 
 .about .row .counter .box1 {
     width: 7rem;
     height: 7rem;
-    background: #373737 !important;
+    background: #37373700 !important;
     text-align: center;
     padding: 0.5rem;
     margin: 1rem;
