@@ -285,12 +285,12 @@ header .navbar ul li a:hover {
 .education .box-container .box {
     width: 30rem;
     
-    margin: 3rem 1rem;
+    margin: 5rem 4rem;
     padding-left: 4rem;
     border-left: .2rem solid #ffffff;
     position: relative;
-  /*  border: 2px solid #f9ca24; 
-    border-radius: 2rem;*/
+ /* border: 2px solid #f9ca24; 
+    border-radius: 2rem; */
 }
 .education .box-container .box span {
     font-size: 1.3rem;
