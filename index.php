@@ -1,3 +1,8 @@
+<?php 
+include_once "Connect/connection.php"; 
+
+$GENERAL_INFO = getGeneralInfo($con);
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -54,12 +59,12 @@
         <h1 class="heading"><span>about </span>me</h1>
         <div class="row">
             <div class="info">
-                <h3><span>name : </span>Erfan Khazeni</h3>
-                <h3><span>age : </span>21</h3>
-                <h3><span>post : </span>programmer</h3>
-                <h3><span>nationality : </span>Iranian</h3>
-                <h3><span>personality : </span>Ambiversion</h3>
-                <h3><span>language : </span>Persian & English</h3>
+                <h3><span>name : </span><?=$GENERAL_INFO['name']; ?></h3>
+                <h3><span>age : </span><?=$GENERAL_INFO['age']; ?></h3>
+                <h3><span>post : </span><?=$GENERAL_INFO['post']; ?></h3>
+                <h3><span>nationality : </span><?=$GENERAL_INFO['Nationality']; ?></h3>
+                <h3><span>personality : </span><?=$GENERAL_INFO['Personality']; ?></h3>
+                <h3><span>language : </span><?=$GENERAL_INFO['Language']; ?></h3>
                 <a href="https://drive.google.com/file/d/10tAKjVeqWFw7lIW2c-oG2MsKtrVBiSda/view?usp=sharing"><button class="btn">Download CV <i class="fas fa-download"></i></button></a>
             </div>
             <div class="counter">
